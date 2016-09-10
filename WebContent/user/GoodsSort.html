@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<table border="0"  align="center" width="700">
+			<tr bgcolor="#B4CCCE">
+				<td >
+					<h3>基本信息</h3>
+				</td>
+				<td>
+					
+				
+					<form id="form1" name="form1" method="post" action="">
+						<h4><span style="color:red">*</span><span >商品类型：</span>
+							<select name="select" id="st" onchange="change()">
+								<option value="1">女装男装</option>
+								<option value="2">鞋类箱包</option>
+								<option value="3">内衣配饰</option>
+								<option value="4">运动户外</option>
+								<option value="5">珠宝手表</option>
+								<option value="6">数码</option>
+								
+							</select>
+					
+						</h4>
+					</form>	</td>
+			</tr>
+			<tr bgcolor=#B4CCCE>
+				<td>
+					<h3>库存/规格</h3>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><h4><span style="color:red">*</span>总库存：</h4><input type="text "  name="Totaexit"/></td>
+						</tr>
+						<tr>
+							<td>
+								<h4>商家编码:</h4><input type="text " name="merchantencoding"/>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr bgcolor="#B4CCCE">
+				<td>
+					<h3>商品信息：</h3>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><h4><span style="color:red">*</span>商品名：</h4><input type="text " name="goodsname"/></td>
+						</tr>
+						<tr>
+							<td>
+								<h4>价格:</h4>￥<input type="text " name="price"/>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
