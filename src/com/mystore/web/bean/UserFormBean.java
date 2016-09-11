@@ -50,11 +50,9 @@ public class UserFormBean {
 				error.put("username", "用户名长度在2-16个字符之间");
 			}
 			
-			
-			
 			if(password == null || "".equals(password.trim())){
 				error.put("password", "密码不能为空");
-			}else if(!(password.length() > 1 && nickname.length() < 17)){
+			}else if(!(password.length() > 1 && password.length() < 17)){
 				error.put("password", "密码长度在2-16个字符之间");
 			}
 		}

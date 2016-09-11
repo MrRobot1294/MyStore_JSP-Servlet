@@ -2,10 +2,7 @@
 <c3p0-config>
   <default-config>
   	<property name="driverClass">com.mysql.jdbc.Driver</property>
-  	<!-- 
-  	<property name="jdbcUrl">jdbc:mysql://192.168.1.109:3306/estore?characterEncoding=utf8</property>  	
-  	 -->
-  	<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/shoesshopping?characterEncoding=utf8</property>
+  	<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/mystore?characterEncoding=utf8</property>
   	<property name="user">root</property>
   	<property name="password">123456</property>
     <property name="initialPoolSize">10</property>

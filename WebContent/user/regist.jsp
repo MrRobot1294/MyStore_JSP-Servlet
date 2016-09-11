@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<link href="${pageContext.request.contextPath }/user/css/style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>regist</title>
 		<!--webfonts-->
 		<!--//webfonts-->
 	</head>

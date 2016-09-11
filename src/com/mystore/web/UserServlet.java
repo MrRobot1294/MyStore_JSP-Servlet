@@ -105,7 +105,7 @@ public class UserServlet extends HttpServlet {
 		User user = userService.login(username, password);
 		if(user != null){
 			request.getSession().setAttribute("user", user);
-			response.sendRedirect(request.getContextPath()+"/NewFile.jsp");
+			response.sendRedirect(request.getContextPath()+"/index.jsp");
 			return ;
 		}else{
 			request.setAttribute("msg", userFormBean);

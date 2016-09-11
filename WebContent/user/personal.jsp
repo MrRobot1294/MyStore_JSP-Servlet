@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Title</title>
+<title>Personal</title>
 <style>
 hr {
 	border: 2px solid darkslateblue;
