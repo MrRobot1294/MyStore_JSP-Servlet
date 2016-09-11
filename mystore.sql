@@ -1,14 +1,9 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : me
-Source Server Version : 50536
 Source Host           : localhost:3306
-Source Database       : estore
-
+Source Database       : mystore
 Target Server Type    : MYSQL
-Target Server Version : 50536
-File Encoding         : 65001
 
 Date: 2016-01-15 01:36:03
 */
